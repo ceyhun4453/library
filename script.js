@@ -22,6 +22,7 @@ function addBookToLibrary(book) {
 }
 
 //TODO: Find a better way to add so many elements.
+//
 /**@param {Book} book */
 function addBookCard(book) {
     const bookTitleClass = "book-title";
