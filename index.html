@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Library</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div class="top-level-container">
+        <div class="add-book-panel">
+            <form>
+                <label for="title">Title:</label>
+                <input required type="text" id="title" name="title">
+                <label for="author">Author:</label>
+                <input required type="text" id="author" name="author">
+                <label for="page-number">Page Number:</label>
+                <input required type="number" id="page-number" name="page-number">
+                <label for="has-read">Read this book?</label>
+                <input type="checkbox" id="has-read" id="has-read">
+                <input type="button" id="add-button" name="add-button" value="Add!" onclick="JavaScript:addBook()">
+            </form>
+        </div>
+        <div class="book-card-container">
+            <!-- <div class="book-card-unread" data-key="0">
+                <ul>
+                    <li class="book-title">The Hobbit</li>
+                    <li class="book-extra">J.R.R. Tolkien</li>
+                    <li class="book-extra">156</li>
+                    <li><span class="book-extra">Read:</span><input type="checkbox"></li>
+                </ul>
+            </div> -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
